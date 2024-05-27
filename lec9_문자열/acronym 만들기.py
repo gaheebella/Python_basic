@@ -1,4 +1,3 @@
-#머리 글자어 만들기
 phrase = input()
 
 acronym = " "
