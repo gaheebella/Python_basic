@@ -8,5 +8,5 @@ for word in text_data.split(): #text_data를 공백기준으로 잘라서 한 �
     else:
         word_dic[word] = 1 #없으면 1로 초기화시키기
 
-for word,count in sorted(word_dic.items()): #key,value값 출력_딕셔너리는 items이용
+for word, count in sorted(word_dic.items()): #key,value값 출력_딕셔너리는 items이용
     print(word, "의 등장횟수: ", count)
