@@ -4,7 +4,7 @@ class Student:
         self.__name = name
         self.__age = age
 
-#인스턴스 반환_ 접근자get, 설정자set
+# private인스턴스 반환_ 접근자get, 설정자set
     def getAge(self):
         return self.__age
 
